@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "parkmate-payments-poc"
+version = "0.1.0"
+description = ""
+authors = ["Paul <paul.almerino@smsupermalls.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+fastapi = "^0.115.6"
+uvicorn = "^0.34.0"
+omipay = {git = "git@github.com:sm-omi/omi-pay.git", rev = "main"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
