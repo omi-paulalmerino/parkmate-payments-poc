@@ -9,8 +9,8 @@ readme = "README.md"
 python = "^3.13"
 fastapi = "^0.115.6"
 uvicorn = "^0.34.0"
-omipay = {git = "git@github.com:sm-omi/omi-pay.git", rev = "main"}
-
+omipay = {git = "git@github.com:sm-omi/omi-pay.git", rev = "dev"}
+pymongo = "^4.10.1"
 
 [build-system]
 requires = ["poetry-core"]
